@@ -1,61 +1,63 @@
 body {
-  background: #cee5d0;
+	background: #cee5d0;
 }
 
 h1 {
-  font-size: 500%;
-  font-weight: 800;
-  font-family: "Roboto Mono", monospace;
-  text-align: center;
-  line-height: 2.3 em;
-  color: #fff;
+	font-size: 500%;
+	font-weight: 800;
+	font-family: "Roboto Mono", monospace;
+	text-align: center;
+	line-height: 2.3 em;
+	color: #fff;
 }
 
 h1 span {
-  padding: 5px 15px;
-  background: #88e0ef;
+	padding: 5px 15px;
+	background: #88e0ef;
 }
 
 .frame {
-  margin: 20px;
-  padding: 15px;
-  border-radius: 2.6em;
-  height: 220%;
-  width: 20%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  font-family: "Source Sans Pro", sans-serif;
-  background-color: #105652;
-  font-weight: 800;
-  text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/* align-items: center; */
+}
+
+.inside {
+	width: 500px;
+	margin: 20px;
+	padding: 15px;
+	border-radius: 2.6em;
+	font-family: "Source Sans Pro", sans-serif;
+	background-color: #105652;
+	font-weight: 800;
+	text-align: center;
 }
 
 .emoji {
-  margin: 0 auto 20px;
-  display: block;
-  font-size: 250%;
-  align-items: center;
+	margin: 0 auto 20px;
+	display: block;
+	font-size: 250%;
+	align-items: center;
 }
 
 .name {
-  font-size: 200%;
-  margin: 0 auto 20px;
-  padding: 30px 30px;
-  color: #adc2a9;
+	font-size: 200%;
+	margin: 0 auto 20px;
+	padding: 30px 30px;
+	color: #adc2a9;
 }
 
 dt {
-  align-items: center;
+	align-items: center;
 }
 
 dd {
-  align-items: center;
-  padding: 20px;
+	align-items: center;
+	padding: 20px;
 }
 
 .meaning {
-  font-size: 120%;
-  color: #fef5ed;
+	font-size: 120%;
+	color: #fef5ed;
 }

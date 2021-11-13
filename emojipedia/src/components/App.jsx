@@ -14,23 +14,23 @@ import emojipedia from "../emojipedia";
 // function createEntery(emojiTerm) {}
 
 function App() {
-  return (
-    <div>
-      <Title />
-      <div>
-        {emojipedia.map((emojiTerm) => {
-          return (
-            <Frame
-              key={emojiTerm.id}
-              emoji={emojiTerm.emoji}
-              name={emojiTerm.name}
-              meaning={emojiTerm.meaning}
-            />
-          );
-        })}
-      </div>
-    </div>
-  );
+	return (
+		<div>
+			<Title />
+			<div className="frame">
+				{emojipedia.map(emojiTerm => {
+					return (
+						<Frame
+							key={emojiTerm.id}
+							emoji={emojiTerm.emoji}
+							name={emojiTerm.name}
+							meaning={emojiTerm.meaning}
+						/>
+					);
+				})}
+			</div>
+		</div>
+	);
 }
 
 export default App;
